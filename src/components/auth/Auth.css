@@ -29,8 +29,9 @@
 
 .modern-auth-card {
   width: 100%;
-  max-width: 700px;
+  max-width: 850px;
   min-height: 500px;
+  height: 550px;
   display: flex;
   border-radius: 6px;
   overflow: hidden;
@@ -43,7 +44,7 @@
 /* Éléments du conteneur d'authentification */
 .login-content {
   flex: 2.5;
-  padding: 40px;
+  padding: 30px;
   background-color: white;
   overflow: auto;
   display: flex;
@@ -76,9 +77,10 @@
 
 /* Styles spécifiques pour le formulaire d'inscription */
 .register-form {
-  max-height: 70vh;
+  max-height: 380px;
   overflow-y: auto;
   padding-right: 10px;
+  margin-bottom: 0;
 }
 
 .register-form::-webkit-scrollbar {
@@ -110,7 +112,7 @@
 }
 
 .login-header {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .login-header h3 {
@@ -128,12 +130,12 @@
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   position: relative;
 }
 
 .form-group input {
-  width: 100%;
+  width: 86%;
   padding: 12px 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -171,7 +173,7 @@
 }
 
 .terms-policy {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .terms-policy p {

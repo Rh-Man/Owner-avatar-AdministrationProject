@@ -30,7 +30,6 @@ const Register = () => {
     if (!formData.firstName) tempErrors.firstName = "Prénom requis";
     if (!formData.lastName) tempErrors.lastName = "Nom requis";
     
-    // Email est optionnel, mais s'il est fourni, il doit être valide
     if (formData.email && !/\S+@\S+\.\S+/.test(formData.email)) {
       tempErrors.email = "Adresse email invalide";
     }
@@ -64,9 +63,7 @@ const Register = () => {
       setIsSubmitting(true);
       
       try {
-        // TODO: Replace with actual API call
         console.log('Submitting registration:', formData);
-        // Mock API call
         setTimeout(() => {
           alert("Inscription réussie! Vous pouvez maintenant vous connecter.");
           setFormData({

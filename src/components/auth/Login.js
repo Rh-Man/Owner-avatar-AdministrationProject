@@ -45,9 +45,7 @@ const Login = () => {
       setIsSubmitting(true);
       
       try {
-        // TODO: Replace with actual API call
         console.log('Submitting login:', formData);
-        // Mock API call
         setTimeout(() => {
           alert("Connexion réussie! Redirection vers votre tableau de bord.");
           setIsSubmitting(false);
