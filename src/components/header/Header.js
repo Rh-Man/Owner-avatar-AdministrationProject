@@ -2,12 +2,11 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
-  const userName = "nom prenom";
   
   return (
     <header className="app-header">
       <div className="header-left">
-        Bon retour, <span className="user-name">{userName}</span>
+        Bon retour, <span className="user-name"></span>
       </div>
       <div className="header-right">
         <div className="notification-icon">
@@ -17,9 +16,9 @@ const Header = () => {
         </div>
         <div className="user-info">
           <div className="user-avatar">
-            <span>NP</span>
+            <span>-</span>
           </div>
-        <span className="user-display-name">{userName}</span>
+          <span className="user-display-name"></span>
         </div>
       </div>
     </header>
